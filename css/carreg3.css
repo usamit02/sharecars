@@ -1,0 +1,77 @@
+
+/*#a_basic{display:flex;align-items: center;width:300px}*/
+.row{display:flex;}
+#cancel{width: 160px;}
+#insurance{width:350px;}
+fieldset div div{
+  display: flex;
+  align-items: center;
+}
+h1{width: 100%;font-size:large; text-align:left;background-color:skyblue;color:white;}
+.owner,.owner + label,.owner + label+ div {display:none;}
+.car,.car + label,.car + label + div{display:none;}
+#delay_rate,#delay_rate + label,#delay_rate + label + div{display:none;}
+label{order: 1;}
+#cancel label{ width:8em;}
+#insurance input[type="number"] + label{ width:12em;}
+input[type="checkbox"] {display:none;} 
+input, textarea, select {
+  order: 2;
+  margin:10px 10px 10px 20px;
+}
+input + label + div,select + label + div{order:3;}
+input[type="checkbox"] + label {
+  font-weight:bold;
+  text-align:center;
+  color:#6181EC;
+  width:140px;
+  height:20px; 
+  padding-top:10px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background:#cccccc;
+  background-color:#1F4D61;
+  border-radius:10px;
+  margin:10px 10px 10px 20px;
+}
+
+input:checked + label {
+  color:#EBD6D6;
+    border-color:#CA8D08 #2B832F #5E07CF #812055;
+    background-color:#49a9d4;
+    
+}
+
+
+
+#post{
+  display: flex;
+  justify-content: center;
+}
+#posting{
+  font-size:18px;
+  color:#EBD6D6;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background-color:#49a9d4;
+  border-radius:10px;
+  }
+  #message{
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1000px) and (max-width:1400px){
+   
+    
+    }
+    @media screen and (min-width: 1400px){
+    
+      .main{display:flex;}
+    }

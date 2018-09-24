@@ -1,0 +1,50 @@
+
+#main div{display:flex;}
+#carimg{position: relative;}
+#alert{position: absolute;top:180px;left:20px; width:600px;height:70px;font-size:70px;color:red;text-align:center;}
+ul.thumblist li {list-style: none;margin-left: 10px;margin-bottom: 10px;}
+.thumblist{display:flex;flex-wrap: wrap;}
+#panel div{font-size:20px;color:#E4F0D6;padding:28px 50px 20px;border:2px solid;border-color:#aaaaaa #444444 #444444 #aaaaaa;background-color:#363636;border-radius:2px;}
+#moneypanel td{font-size:18px;color:#EBD6D6;padding:20px 50px;border:2px solid;border-color:#aaaaaa #444444 #444444 #aaaaaa;background-color:#393A3A;border-radius:2px;}
+#moneysubpanel td{text-align:right;}
+#carinfo{margin: 20px 0px;}
+table{border-collapse: collapse;}
+#carinfo table{width:300px; margin: 0px 50px 0px 0px;padding: 5px 10px ;}
+#carinfo table th{margin: 10px;padding: 10px 20px;border:1px solid;}
+#carinfo table td{margin: 10px;padding: 10px 20px;border:1px solid;}
+/*.equip{display:flex;flex-wrap: wrap;width:500px;justify-content:flex-start;}*/
+.equip{display:flex;}
+.equip div div{font-size:18px;text-align:center;margin: 5px;padding:10px 10px;border:2px solid;border-color:#aaaaaa #444444 #444444 #aaaaaa;border-radius:15px;}
+.equipon{color:#F7A65A;background-color:#19A178;}
+.equipoff{color:#2D2D2E;background-color:#4D4E4E;}
+.marker{display:flex;flex-direction:column;margin:5px;position: relative;}
+.alert{position: absolute;top:40px;left:15px;width:120px;height:20px;font-size:20px;color:red;text-align:center;}
+#carlist div{display:flex;justify-content:center;}
+#carimg{position: relative;}
+@media screen and (max-width: 999px){
+  button{font-size:18px;color:#EBD6D6;padding:10px 20px 10px 20px;background-color:#49a9d4;border-radius:10px;}
+  #intro{padding:2vw;border:2px solid;border-color:#aaaaaa #444444 #444444 #aaaaaa;border-radius:15px;width:80vw;}
+  #owner{display:flex;}
+  #map_canvas{width:100vw; height:100vw;}
+  #maparea ol{display:flex;flex-wrap:wrap;}
+  #maparea ol li{margin:0px 0px 0px 30px;}
+  #maparea ol li label{color:lightgray;padding:20px;}
+  #terms button{margin:0px 30px 10px 0px;}
+}
+@media screen and (min-width: 1000px){
+#main,#sub{display:flex;justify-content:center;}
+#carimg,#carinfo{display:flex;}
+#intro{padding:10px;border:2px solid;border-color:#aaaaaa #444444 #444444 #aaaaaa;border-radius:15px;width:640px;}
+#operate{display:flex;margin:20px 0px 0px 0px;}
+#terms{display:flex;} 
+#maparea{display:flex;margin:20px 0px 10px 0px;}
+#maparea ol{margin:0px 10px 0px 0px;display:flex;flex-direction:column;}
+#map_canvas{width:80vw; height:80vw;}
+#maparea ol li label{color:lightgray;padding:10px;}
+}
+
+@media screen and (min-width: 1400px){
+ #carimg,#ope{display:flex;}
+.thumbtext{display:flex;flex-direction: row-reverse;}
+.thumblist{display:flex;flex-direction:column;}
+}

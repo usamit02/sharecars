@@ -1,0 +1,46 @@
+
+/*#a_basic{display:flex;align-items: center;width:300px}*/
+.row{display:flex;}
+#equip1,#equip2,#equip3{width: 150px;}
+#basic{width:250px;}
+#introduction{width:500px;}
+fieldset div div{display: flex;align-items: center;}
+#secret{display: flex;}
+#equip1 div,#equip2 div, #equip3 div{flex-direction: column;}
+label{order: 1;}
+#basic label{ width: 8em;}
+#price label { width: 6em;}
+#hidden{display:none;} 
+#price input {margin-right:10px;}
+input[type="checkbox"] {display:none;} 
+#reg input, textarea, select {order: 2;margin:10px 10px 10px 20px;}
+input + label + div, select + label + div{order: 3;}
+input[type="checkbox"] + label {
+  font-size:12px;
+  font-weight:bold;
+  text-align:center;
+  color:#6181EC;
+  width:100px;
+  height:20px; 
+  padding-top:10px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background:#cccccc;
+  background-color:#1F4D61;
+  border-radius:10px;
+  margin:10px 10px 0px 20px;
+}
+input:checked + label {color:#EBD6D6; border-color:#CA8D08 #2B832F #5E07CF #812055; background-color:#49a9d4;}
+#post,#message{display: flex;justify-content: center;}
+@media screen and (max-width: 999px){
+  button{font-size:18px;color:#EBD6D6;padding:10px 20px 10px 20px;background-color:#49a9d4;border-radius:10px;} 
+#map_canvas{width:100vw; height:100vw;}
+}
+@media screen and (min-width: 1000px){
+#main{display:flex;}
+#map_canvas{width:90vh; height:90vh;}
+#posting{margin:20px 0px;}
+}

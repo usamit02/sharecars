@@ -1,0 +1,54 @@
+.city{display:flex;flex-wrap: wrap;padding: 10px 10px;}
+input[type="checkbox"] {display:none;}
+.citybutton{
+  font-size:18px;
+  font-weight:bold;
+  text-align:center;
+  color:#EBD6D6;
+  width:100px;
+  height:50px; 
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:25px;
+  padding-right:25px;
+  border:2px solid;
+  border-color:#CA8D08 #2B832F #5E07CF #812055;
+  background-color:#49a9d4;
+  border-radius:10px;
+  }
+  .citybutton:hover{
+    background:#2C4DAA;
+  }
+ 
+  .citypanel{
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    color:#6181EC;
+    width:100px;
+    height:50px; 
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    border:2px solid;
+    border-color:#aaaaaa #444444 #444444 #aaaaaa;
+    background:#cccccc;
+    background-color:#1F4D61;
+    border-radius:10px;
+    }
+    .center{
+      display:flex;justify-content:center; 
+    }
+    .posting{
+      font-size:18px;
+      color:#EBD6D6;
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left:10px;
+      padding-right:10px;
+      border:2px solid;
+      border-color:#aaaaaa #444444 #444444 #aaaaaa;
+      background-color:#49a9d4;
+      border-radius:10px;
+      }

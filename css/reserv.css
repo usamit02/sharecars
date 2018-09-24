@@ -1,0 +1,10 @@
+
+#plans{width :800px;display:flex;flex-wrap: wrap;margin: 10px 0px 0px 10px;}
+.plan{margin: 10px 0px 10px 0px;}
+.planhours{display:flex;border:1px solid;height:35px;}
+.planlabel{width:60px;}
+#timetable{display:flex;flex-direction: column}
+#timetable div,.plan{display: flex;justify-content: right ;}
+#timetable div input,#timetable div button{width:50px;}
+.hour{width:25px;height: 50px;border:1px solid;}
+.hourlabel{width:27px;height: 10px;font-size:10px;text-align: right;color:white;}

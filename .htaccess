@@ -1,0 +1,6 @@
+<Files ~ ".(cgi|xcg)$>
+ <Limit GET POST>
+ order allow,deny
+ allow from all
+ </Limit>
+ </Files>

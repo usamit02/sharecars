@@ -1,0 +1,22 @@
+#terms {margin:0px 0px 10px 0px;}
+#terms div{display:flex;}
+#where{margin:10px 10px 10px 10px;}
+.marker{display:flex;flex-direction:column;margin:5px;position: relative;}
+.alert{position: absolute;top:40px;left:15px;width:120px;height:20px;font-size:20px;color:red;text-align:center;}
+#carlist div{display:flex;justify-content:center;}
+input[type="number"]{width:5em;}
+@media screen and (max-width: 999px){
+  button{font-size:18px;color:#EBD6D6;padding:10px 20px 10px 20px;background-color:#49a9d4;border-radius:10px;}
+  #map_canvas{width:100vw; height:100vw;}
+  #maparea ol{display:flex;flex-wrap:wrap;}
+  #maparea ol li{margin:0px 0px 0px 30px;}
+  #maparea ol li label{color:lightgray;padding:20px;}
+  #terms div{justify-content:space-between;} 
+}
+@media screen and (min-width: 1000px){
+   #terms{display:flex;} 
+   #maparea{display:flex;margin:20px 0px 10px 0px;}
+   #maparea ol{margin:0px 10px 0px 0px;display:flex;flex-direction:column;}
+   #map_canvas{width:75vw; height:60vw;}
+   #maparea ol li label{color:lightgray;padding:10px;}
+}

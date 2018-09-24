@@ -1,0 +1,56 @@
+http://sharecars.s1003.xrea.com/
+
+ichiro abe
+VALUE-DOMAIN ユーザー名 ：casita
+メールアドレス　　　　　 ：casita250@yahoo.co.jp
+アカウント名(FTPユーザー名)：sharecars
+パスワード　　　　　　　 ：jkOI3n5guKEm
+ＦＴＰサーバー　　　　　 ：s1003.xrea.com
+ＰＯＰサーバー　　　　　 ：s1003.xrea.com
+ＳＭＴＰサーバー　　　　 ：s1003.xrea.com
+転送先ディレクトリ　　　 ：public_html
+
+
+海外からのアクセスで403エラーになります
+一部のXREAサーバーで海外から大量のPOSTアクセスがあると、一時的に拒否する設定を入れております。
+POSTアクセスで403エラーとなる場合、「.htaccess」に下記の6行を追加してください。
+<Files ~ ".(cgi|xcg)$>
+ <Limit GET POST>
+ order allow,deny
+ allow from all
+ </Limit>
+ </Files>
+
+SSH 旧パネル
+153.249.196.210 
+ p1493211-omed01.osaka.ocn.ne.jp 
+
+
+FTP 
+サーバー　s1003.xrea.com
+アカウント　sharecars
+パスワード　jkOI3n5guKEm
+
+
+LINE bissiness
+アカウント名　sharecars
+ChannelID    1534503015
+Channel Secret  02213f3acf61f795eed48eb7d79962b0
+
+LINE Messageing API
+
+ChannelID    1534735877
+Channel Secret  782ca21e2feed85b056e2e6e0a21c8f2
+Channel Access Token  chDXEpXZD264o2ppEPSz3hxX562bZwd9XCWFvnSVoGJ1Ac2gVzInpSs0TO5mDIDx7aHvj+90H3SrSPFoBG+W6ULO+9myBGjjxjIHz0VytwdjYRS0sCd71pT+XWGBNhD3ITPdcypW7CXQ7lcyx7CGxQdB04t89/1O/w1cDnyilFU=
+
+Your userid  U4bb228c13412be395a0f6bd9abceecc2
+
+
+Line Notify
+パーソナルアクセストークン　U7VRKqQ9FjFAZVhDzTc5nSptcsuHKZTuAgqb0ChoXmB
+
+google map api key AIzaSyDTHLyzh5B37YJPU8esWD0fV0ntvE9QOwI 
+
+
+MySQL インポート　myphpadminのデーターベースを選択して画面がテーブル一覧になってからタブにあるインポートをクリックしてエクスポートファイルを１個ずつインポートする。
+

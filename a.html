@@ -1,0 +1,23 @@
+<html>
+
+<body>
+  <form method='get'>
+    <input type='hiden' id='time' name='time'>
+    <input type='hiden' id='conf' name='conf'>
+    <button onclick='save("update")'>update</button>
+    <button onclick='save("default")'>default</button>
+  </form>
+  <script>
+    function save(conf) {
+      var a = document.getElementById('conf');
+      a.value = conf;
+      var t = new Date / 1000 | 0;
+      var b = document.getElementById('time');
+      b.value = t;
+      document.form1.submit();
+    }
+  </script>
+
+</body>
+
+</html>

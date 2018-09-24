@@ -1,0 +1,90 @@
+@charset "utf-8";
+table, td, th {border-collapse: collapse;border:1px solid #333;}
+table + tr td,th{text-align: center;}
+.indeximg{max-width:150px;max-height:100px;}
+.pager{
+  display:flex;
+}
+.index a{
+font-size:1em;
+display:flex;
+width:25px;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left:5px;
+padding-left:5px;
+text-align:center;
+border:2px solid;
+border-radius:5px;
+border-color:#aaaaaa #444444 #444444 #aaaaaa;
+background:#cccccc;
+}
+.pagerbotton:hover{
+background:#777777;
+}
+#timetable{
+  display:flex;
+  flex-direction: column
+
+}
+
+#plans{width :800px;display:flex;flex-wrap: wrap}
+#timetable div,.plan{
+  display: flex;
+  justify-content: right ;
+}
+#timetable div input,#timetable div button{
+ width:50px;
+}
+
+.planlabel + div{
+  display:flex;
+  border:1px solid;
+}
+.hour{
+  width:25px;
+  height: 50px;
+  border:1px solid;
+}
+.hourlabel{
+  width:27px;
+  height: 10px;
+  font-size:10px;
+  text-align: right;
+  color:white;
+} 
+#me{display:flex;}
+#me div{margin:0px 10px;}
+.carimg{
+  position: relative;
+}
+.alert{
+  position: absolute;
+  top:35px;
+  left:10px; 
+  width:120px;
+  height:20px;
+  font-size:18px;
+  color:red;
+  text-align:center; 
+}
+
+
+@media screen and (max-width: 999px){
+button{
+  font-size:18px;color:#EBD6D6;
+  padding:10px 20px 10px 20px;
+  background-color:#49a9d4;
+  border-radius:10px;
+}
+}
+@media screen and (min-width: 1000px) and (max-width:1400px){
+ 
+}
+  @media screen and (min-width: 1400px){
+   #carimg,#ope{display:flex;}
+  .thumbtext{display:flex;flex-direction: row-reverse;}
+  .thumblist{display:flex;flex-direction:column;}
+  }
+ 
+ 

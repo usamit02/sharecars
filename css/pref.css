@@ -1,0 +1,39 @@
+.pref{display:flex;flex-direction:row;flex-wrap: wrap;padding: 10px 10px;}
+
+.prefbotton{
+  font-size:24px;
+  font-weight:bold;
+  text-align:center;
+  color:#EBD6D6;
+  width:96px;
+  height:50px; 
+  padding-top:30px;
+  padding-bottom:10px;
+  padding-left:25px;
+  padding-right:25px;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background:#cccccc;
+  background-color:#49a9d4;
+  border-radius:10px;
+  }
+  .prefbotton:hover{
+  background:#2C4DAA;
+  }
+  .prefpanel{
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+    color:#6181EC;
+    width:96px;
+    height:50px; 
+    padding-top:30px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:25px;
+    border:2px solid;
+    border-color:#aaaaaa #444444 #444444 #aaaaaa;
+    background:#cccccc;
+    background-color:#1F4D61;
+    border-radius:10px;
+    }

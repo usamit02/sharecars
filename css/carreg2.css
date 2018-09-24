@@ -1,0 +1,14 @@
+#dustbox{width:100px;height:100px;}
+input{margin:20px;}
+#s-area{margin:20px;}
+.s-img{max-width:150px;max-height:100px;}
+#area{margin:20px;order:-1;}
+#main{display:flex;flex-direction:column}
+#end{
+  text-align:center;
+  margin:20px;
+}
+  @media screen and (min-width: 1000px){
+ 
+  
+  }
